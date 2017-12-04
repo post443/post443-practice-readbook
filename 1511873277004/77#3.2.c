@@ -23,7 +23,7 @@ void main(void)
 	leg35 = sqrt(pow(leg15,2)+pow(leg25,2));
 	
 	printf("         五个三角形的斜边长度          \n");
-	printf(" 三角形序号       leg1 长度       leg2 长度       leg3 长度  \n");
+	printf(" 三角形序号      leg1 长度        leg2 长度       leg3 长度  \n");
 	printf("      1           %8.2lf         %8.2lf        %8.2lf         \n",leg11,leg21,leg31);
 	printf("      2           %8.2lf         %8.2lf        %8.2lf         \n",leg12,leg22,leg32);
 	printf("      3           %8.2lf         %8.2lf        %8.2lf         \n",leg13,leg23,leg33);

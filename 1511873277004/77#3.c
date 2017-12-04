@@ -7,6 +7,7 @@ int main()
 	area     = 0.5 * horizleg * vertleg;
 	printf(" \n第一个三角形的面积：%6.2f \n",area);
 	
+
 	horizleg += 1.;
 	vertleg  /= 2.;
 	area      = .5 * horizleg * vertleg;
