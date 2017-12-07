@@ -10,25 +10,21 @@ int main ()
 	}else if (input < 2)
 	{
 		printf("请输入大于等于2的整数");
+	}else if(input%2 == 0)
+	{
+		printf("不是素数");
 	}else
 	{
 		i = 3;
-		if(input%2 == 0)
+		while(input/2>=i)
 		{
-			printf("不是素数");
-		}else
-		{
-			while(input/2>=i)
+			if(input%i==0)
 			{
-				if(input%i==0)
-				{
-					printf("不是素数");
-					return ;
-				}
-				i+=2;
+				printf("不是素数");
+				return ;
 			}
-			printf("是素数");
+			i+=2;
 		}
-
+		printf("是素数");
 	}
 }
